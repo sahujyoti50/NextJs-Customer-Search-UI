@@ -1,0 +1,77 @@
+.button-73 {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 30px;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-73:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+.button-73:active {
+    transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+    .button-73 {
+        font-size: 1.5rem;
+        padding: .75rem 2rem;
+    }
+}
+
+.body {
+    width: 800px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #000000;
+    margin: auto;
+}
+
+.login {  
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    border: transparent;
+    box-shadow:3px 4px 5px gray;
+}
+.input{
+   margin-left:80px;
+    padding: 10px;
+    width:250px;
+    font-size: 20px;
+}
+.card{
+    padding: 10px;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    border: transparent;
+    box-shadow:3px 4px 5px gray;
+    border-radius: 10px;
+    font-family: arial;
+}
